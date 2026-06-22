@@ -1,0 +1,4 @@
+*.zip
+olist_*.csv
+.ipynb_checkpoints/
+__pycache__/
