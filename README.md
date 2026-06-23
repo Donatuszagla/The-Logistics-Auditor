@@ -1,3 +1,23 @@
+
+### A. The Executive Summary
+This audit examined Veridi Logistics' delivery performance using the Olist e-commerce dataset to test whether negative reviews stem from inaccurate delivery estimates. I found that 8.1% of delivered orders missed their estimated date, and severity matters: "Super Late" orders saw average review scores collapse to 1.78/5, compared to 4.29/5 for on-time orders. The problem is geographic rather than nationwide, northeastern states like Alagoas (23.9% late) and Maranhão (19.7% late) are far more affected than São Paulo (5.9% late), consistent with their distance from Olist's main distribution hub. A secondary contributing factor is product category: bulkier items like office furniture and construction tools show elevated late rates regardless of destination, suggesting a handling/packaging bottleneck independent of geography. Veridi should prioritize logistics partnerships for underserved northeastern states and review handling processes for oversized product categories.
+
+### B. Project Links
+* **Link to Notebook:** (https://colab.research.google.com/drive/1x3FQ3ZCtcPt33RuYGq51mZbZRq0M5r04?usp=sharing)*
+* **Link to Dashboard:** ((https://the-logistics-auditor-vjx2amhvkvqynobbib9s4g.streamlit.app/)).
+* **Link to Presentation:** A link to a short slide deck (PDF/PPT) AND (Optional) a 2-minute video walkthrough (YouTube) explaining your results.
+
+
+### C. Technical Explanation
+***Data Cleaning:**
+- Deduplicated the reviews table (551 orders had duplicate review entries), keeping the most recent review per order.
+- Aggregated the order_items table (one row per item) up to one row per order, merging in product category and translating Portuguese category names to English.
+- Joined orders, customers, reviews, and aggregated items/products into a single master table with no row duplication (verified: 99,441 orders in, 99,441 rows out).
+- Separated orders into Delivered / Not Delivered (canceled/unavailable) / Missing Date before calculating delay, so delay metrics are only computed on orders that actually completed.
+
+**Candidate's Choice — Delay by Product Category:**
+I added an analysis of late delivery rate by product category (filtered to categories with 50+ orders for statistical reliability). This matters because it reveals that delay isn't purely a function of distance from the hub — certain product types (e.g., office furniture, construction tools) show consistently elevated late rates regardless of destination state, pointing to a packaging/handling bottleneck Veridi could address with category-specific logistics processes, separate from the geographic fixes suggested by Story 3.
+
 # Project Brief: The "Last Mile" Logistics Auditor
 
 **Client:** Veridi Logistics (Global E-Commerce Aggregator)  
