@@ -148,20 +148,20 @@ Please edit this `README.md` file in your forked repository to include the follo
 > **We do not accept "permission error" excuses. Test your links in Incognito Mode.**
 
 ### 1. Repository & Code Checks
-- [ ] **My GitHub Repo is Public.** (Open the link in a Private/Incognito window to verify).
-- [ ] **I have uploaded the `.ipynb` notebook file.**
+- ✅ **My GitHub Repo is Public.** (Open the link in a Private/Incognito window to verify).
+-✅ **I have uploaded the `.ipynb` notebook file.**
 - [ ] **I have ALSO uploaded an HTML or PDF export** of the notebook.
-- [ ] **I have NOT uploaded the massive raw dataset.** (Use `.gitignore` or just don't commit the CSV).
-- [ ] **My code uses Relative Paths.** 
+- ✅ **I have NOT uploaded the massive raw dataset.** (Use `.gitignore` or just don't commit the CSV).
+- ✅ **My code uses Relative Paths.** 
 
 ### 2. Deliverable Checks
-- [ ] **My Dashboard link is publicly accessible.** (No login required).
+- ✅ **My Dashboard link is publicly accessible.** (No login required).
 - [ ] **My Presentation link is publicly accessible.** (Permissions set to "Anyone with the link can view").
 - [ ] **I have updated this `README.md` file** with my Executive Summary and technical notes.
 
 ### 3. Completeness
-- [ ] I have completed **User Stories 1-4**.
-- [ ] I have completed the **"Candidate's Choice"** challenge and explained it in the README.
+- ✅ I have completed **User Stories 1-4**.
+- ✅ I have completed the **"Candidate's Choice"** challenge and explained it in the README.
 
 **✅ Only when you have checked every box above, proceed to the submission form.**
 
