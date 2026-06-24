@@ -4,8 +4,8 @@ This audit examined Veridi Logistics' delivery performance using the Olist e-com
 
 ### B. Project Links
 * **Link to Notebook:** (https://colab.research.google.com/drive/1x3FQ3ZCtcPt33RuYGq51mZbZRq0M5r04?usp=sharing)*
-* **Link to Dashboard:** ((https://the-logistics-auditor-vjx2amhvkvqynobbib9s4g.streamlit.app/)).
-* **Link to Presentation:** A link to a short slide deck (PDF/PPT) AND (Optional) a 2-minute video walkthrough (YouTube) explaining your results.
+* **Link to Dashboard:** (https://the-logistics-auditor-vjx2amhvkvqynobbib9s4g.streamlit.app/).
+* **Link to Presentation:** (https://docs.google.com/presentation/d/1UVql592a56R4gcJmUBzQ264MAFbZliAu/edit?usp=sharing&ouid=117570975585162307612&rtpof=true&sd=true)
 
 
 ### C. Technical Explanation
@@ -148,16 +148,16 @@ Please edit this `README.md` file in your forked repository to include the follo
 > **We do not accept "permission error" excuses. Test your links in Incognito Mode.**
 
 ### 1. Repository & Code Checks
-- ✅ **My GitHub Repo is Public.** (Open the link in a Private/Incognito window to verify).
--✅ **I have uploaded the `.ipynb` notebook file.**
-- [ ] **I have ALSO uploaded an HTML or PDF export** of the notebook.
-- ✅ **I have NOT uploaded the massive raw dataset.** (Use `.gitignore` or just don't commit the CSV).
-- ✅ **My code uses Relative Paths.** 
+✅ **My GitHub Repo is Public.** (Open the link in a Private/Incognito window to verify).
+✅ **I have uploaded the `.ipynb` notebook file.**
+✅ **I have ALSO uploaded an HTML or PDF export** of the notebook.
+✅ **I have NOT uploaded the massive raw dataset.** (Use `.gitignore` or just don't commit the CSV).
+✅ **My code uses Relative Paths.** 
 
 ### 2. Deliverable Checks
-- ✅ **My Dashboard link is publicly accessible.** (No login required).
-- [ ] **My Presentation link is publicly accessible.** (Permissions set to "Anyone with the link can view").
-- [ ] **I have updated this `README.md` file** with my Executive Summary and technical notes.
+✅ **My Dashboard link is publicly accessible.** (No login required).
+✅ **My Presentation link is publicly accessible.** (Permissions set to "Anyone with the link can view").
+✅ **I have updated this `README.md` file** with my Executive Summary and technical notes.
 
 ### 3. Completeness
 - ✅ I have completed **User Stories 1-4**.
